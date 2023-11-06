@@ -1,8 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Poppins&display=swap');
+
 *{
   padding: 0;
   margin: 0;
   box-sizing: border-box;
 }
+
 
 ul{
   list-style: none !important;
@@ -36,5 +39,10 @@ a{
   --primary-backdrop : #282c34;
   --primary-alt-orange: #f1c17e;
 
+}
+
+body{
+  font-family: 'Poppins', sans-serif !important;
+  /* font-family: 'Indie Flower', cursive; */
 }
 
