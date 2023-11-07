@@ -4,7 +4,7 @@ import Navbar from './Navbar/Navbar'
 import Main from './Main/Main'
 import  Footer  from './Footer/Footer'
 
-const Layout = () => {
+const Layout = (props) => {
     
   return (
     <>
