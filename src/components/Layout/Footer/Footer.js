@@ -24,7 +24,7 @@ const Footer = () => {
         <section className="col-12 col-md-4 footer-column">
 
           <div>
-            <a href="/git#">
+            <a href="https://github.com/ashish-pro">
               <FontAwesomeIcon icon={faGithub} size="2x" />
 
             </a>
@@ -36,7 +36,7 @@ const Footer = () => {
               <FontAwesomeIcon icon={faTwitter} size="2x" />
 
             </a>
-            <a href="/lnk#">
+            <a href="https://www.linkedin.com/in/ashu09/">
               <FontAwesomeIcon icon={faLinkedin} size="2x" />
 
             </a>
