@@ -2,9 +2,18 @@ import React from 'react';
 import './Main.css';
 
 const Main = (props) => {  
+  const {children,title,background,backdrop} = props
+  // Condition to check background and load background image Directly
+  let cssClass = "main";
+  if(background){
+    cssClass = "main-background";
+  }
 return (
-    <div className='main'>
-        Main
+    <div className={cssClass}>
+        <div className={backdrop ? "backdrop container-fluid":"container-fluid"}>
+          <h2 className='main-title'>{title}</h2>
+          {children}
+        </div>
     </div>
   )
 }

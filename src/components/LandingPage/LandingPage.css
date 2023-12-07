@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,500&display=swap');
+.l-title{
+    color: var(--primary-orange);
+    font-family: 'Roboto', sans-serif;
+    font-size: 35px;
+}
+
+.l-title-span{
+    color: var(--primary-red);
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 40px;
+}
+
+p{
+    color: var(--primary-charcol-gray);
+}
+
+.l-btn{
+    padding: 5px 20px;
+    font-weight: bold;
+    margin: 3px 10px;
+}

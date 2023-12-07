@@ -1,11 +1,11 @@
 import 'bootstrap/dist/css/bootstrap.min.css'
 import './App.css';
-import Layout from './components/Layout/Layout'
+import AppRoutes from './components/Routes/AppRoutes';
 
 function App() {
   return (
     <div className='App'>
-      <Layout />
+      <AppRoutes/>
     </div>
   );
 }
