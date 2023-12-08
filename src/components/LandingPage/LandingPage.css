@@ -13,10 +13,10 @@
     font-size: 40px;
 }
 
-p{
-    color: var(--primary-charcol-gray);
+.l-section{
+    color: var(--primary-white);
+   
 }
-
 .l-btn{
     padding: 5px 20px;
     font-weight: bold;
