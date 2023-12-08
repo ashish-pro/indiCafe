@@ -11,7 +11,7 @@ const Main = (props) => {
 return (
     <div className={cssClass}>
         <div className={backdrop ? "backdrop container-fluid":"container-fluid"}>
-          <h2 className='main-title'>{title}</h2>
+          <h2 className='main-title' style={{color: backdrop ? "var(--primary-white)": "var(--primary-brick-red)"}}>{title}</h2>
           {children}
         </div>
     </div>

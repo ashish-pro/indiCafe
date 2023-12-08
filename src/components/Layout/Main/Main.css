@@ -3,8 +3,11 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    text-align: center;
     padding: 20px;
-    background-color: var(--primary-custom-green)
+    background-color: var(--primary-custom-green);
+    
+    
   }
 
   .main-background{
@@ -12,16 +15,17 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    padding: 20px;
+    text-align: center;
     background: url("../../../assets/images/idli-background.jpg");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
+   
   }
 
   .main-title{
-    color: var(--primary-charcol-gray);
     font-style: italic;
+    margin-top: 5px;
   }
 
   .backdrop{
